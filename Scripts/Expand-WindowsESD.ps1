@@ -6,7 +6,7 @@ Write-Host -ForegroundColor White       "$((Get-Date).ToString('yyyy-MM-dd-HHmms
 Write-Host -ForegroundColor Green       "Scripts/Expand-WindowsESD.ps1"
 
 if (-NOT ($Global:OSEdition)) {
-    $Global:OSEdition = 'Enerprise'
+    $Global:OSEdition = 'Enterprise'
 }
 Write-Host "OSEdition is set to $Global:OSEdition" -ForegroundColor Cyan
 
